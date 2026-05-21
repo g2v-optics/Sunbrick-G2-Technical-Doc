@@ -39,6 +39,19 @@ const sidebars: SidebarsConfig = {
       link: { type: 'generated-index' },
       items: ['release-notes/index'],
     },
+    {
+      type: 'category',
+      label: 'Sunbrick SDK',
+      link: { type: 'generated-index' },
+      items: [
+        {
+          type: 'category',
+          label: 'Python SDK',
+          link: { type: 'generated-index' },
+          items: ['sdk/python/index'],
+        },
+      ],
+    },
   ],
 };
 
