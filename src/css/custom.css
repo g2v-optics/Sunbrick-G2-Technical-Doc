@@ -1,0 +1,27 @@
+/**
+ * Sunbrick G2 brand palette
+ * Primary: #f9ba3f (from CODE-60237-SBG2-GUID FigmaTokens.ts)
+ */
+
+:root {
+  --ifm-color-primary: #f9ba3f;
+  --ifm-color-primary-dark: #f8ae1e;
+  --ifm-color-primary-darker: #f7a80f;
+  --ifm-color-primary-darkest: #d18a06;
+  --ifm-color-primary-light: #fac660;
+  --ifm-color-primary-lighter: #facc71;
+  --ifm-color-primary-lightest: #fddca0;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #f9c852;
+  --ifm-color-primary-dark: #f8be31;
+  --ifm-color-primary-darker: #f7b921;
+  --ifm-color-primary-darkest: #d19b09;
+  --ifm-color-primary-light: #fad273;
+  --ifm-color-primary-lighter: #fad784;
+  --ifm-color-primary-lightest: #fde3ad;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
