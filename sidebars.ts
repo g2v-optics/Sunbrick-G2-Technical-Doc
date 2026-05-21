@@ -1,7 +1,7 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  docsSidebar: [
+  softwareSidebar: [
     'intro',
     {
       type: 'category',
@@ -39,18 +39,13 @@ const sidebars: SidebarsConfig = {
       link: { type: 'generated-index' },
       items: ['release-notes/index'],
     },
+  ],
+  sdkSidebar: [
     {
       type: 'category',
-      label: 'Sunbrick SDK',
+      label: 'Python SDK',
       link: { type: 'generated-index' },
-      items: [
-        {
-          type: 'category',
-          label: 'Python SDK',
-          link: { type: 'generated-index' },
-          items: ['sdk/python/index'],
-        },
-      ],
+      items: ['sdk/python/index'],
     },
   ],
 };

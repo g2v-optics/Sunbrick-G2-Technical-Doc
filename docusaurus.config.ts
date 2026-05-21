@@ -48,6 +48,18 @@ const config: Config = {
       },
       items: [
         {
+          type: 'docSidebar',
+          sidebarId: 'softwareSidebar',
+          position: 'left',
+          label: 'Software',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'sdkSidebar',
+          position: 'left',
+          label: 'SDK',
+        },
+        {
           type: 'docsVersionDropdown',
           position: 'right',
         },
