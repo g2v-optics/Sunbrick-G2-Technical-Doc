@@ -7,8 +7,8 @@ const config: Config = {
   tagline: 'User manual and release notes for the Sunbrick G2 GUI',
   favicon: 'img/favicon.ico',
 
-  url: 'https://sunbrick-doc.g2voptics.com',
-  baseUrl: '/',
+  url: 'https://g2v-optics.github.io',
+  baseUrl: '/Sunbrick-G2-Technical-Doc/',
 
   organizationName: 'g2v-optics',
   projectName: 'Sunbrick-G2-Technical-Doc',
